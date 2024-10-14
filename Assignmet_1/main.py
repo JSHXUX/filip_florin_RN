@@ -26,7 +26,7 @@ def solveCramer(m: list[list[float]], v: list[float]):
     z = float(determinant(mZ) / det)
 
     print("Cramer Solution:")
-    print("x = {}\ny = {}\nz = {}\n".format(round(x,2), round(y,2), round(x,2)))
+    print("x = {}\ny = {}\nz = {}\n".format(round(x,2), round(y,2), round(z,2)))
 
 def solveInversion(m: list[list[float]], v: list[float]):
     mX = [[m[0][0], m[0][1], m[0][2]], 
